@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    max-width: 350px;
+    background: #b7b5b5;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 span {
+    background: rgb(252, 252, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px 85px 4px 85px;
+    border-radius: 5px;
+    color:rgb(1, 7, 14);
+}
+
+label {
+    font-size: 10px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding-left: 15px;
+    border: 1px  #b7b5b5;
+    border-radius: 5px;
+}
+
+input.invalido {
+    border: 1px solid red;
+}
+
+button {
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 40px;
+    background: #f9ed04;
+    border: none;
+    border-radius: 5px;
+    color: rgb(14, 14, 14);
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background: #c3af02;
+}
+
+.erro {
+    display: block;
+    margin-top: 10px;
+    color: red;
+}
